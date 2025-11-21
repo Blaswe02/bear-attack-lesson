@@ -6,12 +6,7 @@ type SlideSummaryProps = {
   onRestart: () => void;
 };
 
-const SlideSummary: React.FC<SlideSummaryProps> = ({ score, totalSlides, onRestart }) => {
-  // rest van je code hetzelfde laten
-};
-
-export default SlideSummary;
-
+const SlideSummary: React.FC<SlideSummaryProps> = ({
   score,
   totalSlides,
   onRestart,
@@ -22,7 +17,7 @@ export default SlideSummary;
       <p className="mb-2">Great job finishing the bear attack lesson!</p>
       <p className="mb-4">
         Your score: <strong>{score}</strong> points out of{" "}
-        <strong>{totalSlides}</strong> slides with points.
+        <strong>{totalSlides}</strong>.
       </p>
       <button
         onClick={onRestart}
@@ -33,3 +28,5 @@ export default SlideSummary;
     </div>
   );
 };
+
+export default SlideSummary;

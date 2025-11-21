@@ -10,7 +10,7 @@ export const SlideIntro: React.FC<SlideIntroProps> = ({ onStart }) => {
     <div className="h-full flex flex-col md:flex-row">
       <div className="w-full md:w-1/2 h-64 md:h-auto relative">
         <img 
-          src="https://picsum.photos/800/1200?grayscale" 
+          src="/public/bear front page.jpg"
           alt="Bear in habitat" 
           className="absolute inset-0 w-full h-full object-cover"
         />

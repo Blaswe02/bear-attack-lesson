@@ -9,11 +9,12 @@ export const SlideIntro: React.FC<SlideIntroProps> = ({ onStart }) => {
   return (
     <div className="h-full flex flex-col md:flex-row">
       <div className="w-full md:w-1/2 h-64 md:h-auto relative">
-        <img 
-          src="/public/bear front page.jpg"
-          alt="Bear in habitat" 
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+        <img
+  src="/bear-front-page.jpg"
+  alt="Bear in habitat"
+  className="absolute inset-0 w-full h-full object-cover"
+/>
+
         <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent md:hidden" />
       </div>
       <div className="w-full md:w-1/2 p-12 flex flex-col justify-center bg-white">

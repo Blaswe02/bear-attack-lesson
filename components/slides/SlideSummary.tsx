@@ -6,7 +6,12 @@ type SlideSummaryProps = {
   onRestart: () => void;
 };
 
-export const SlideSummary: React.FC<SlideSummaryProps> = ({
+const SlideSummary: React.FC<SlideSummaryProps> = ({ score, totalSlides, onRestart }) => {
+  // rest van je code hetzelfde laten
+};
+
+export default SlideSummary;
+
   score,
   totalSlides,
   onRestart,

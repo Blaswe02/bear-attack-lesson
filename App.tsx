@@ -4,16 +4,16 @@ import { SlideType } from './types';
 import BearClaw from './components/BearClaw';
 import ProgressBar from './components/ProgressBar';
 
-
 // Slide Components
-import { SlideIntro } from './components/slides/SlideIntro';
-import { SlideWarmup } from './components/slides/SlideWarmup';
-import { SlideVocabulary } from './components/slides/SlideVocabulary';
-import { SlideReading } from './components/slides/SlideReading';
-import { SlideComprehension } from './components/slides/SlideComprehension';
-import { SlideTrueFalse } from './components/slides/SlideTrueFalse';
-import { SlideMatching } from './components/slides/SlideMatching';
-import { SlideSummary } from './components/slides/SlideSummary';
+import SlideIntro from './components/slides/SlideIntro';
+import SlideWarmup from './components/slides/SlideWarmup';
+import SlideVocabulary from './components/slides/SlideVocabulary';
+import SlideReading from './components/slides/SlideReading';
+import SlideComprehension from './components/slides/SlideComprehension';
+import SlideTrueFalse from './components/slides/SlideTrueFalse';
+import SlideMatching from './components/slides/SlideMatching';
+import SlideSummary from './components/slides/SlideSummary';
+
 
 const SLIDE_ORDER = [
   SlideType.INTRO,

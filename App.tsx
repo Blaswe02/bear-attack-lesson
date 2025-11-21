@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { SlideType } from './types';
-import { BearClaw } from './components/BearClaw';
-import { ProgressBar } from './components/ProgressBar';
+import BearClaw from './components/BearClaw';
+import ProgressBar from './components/ProgressBar';
+
 
 // Slide Components
 import { SlideIntro } from './components/slides/SlideIntro';
